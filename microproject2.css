@@ -1,0 +1,274 @@
+:root{
+    --font-family: DM Sans, 'Source Sans Pro';
+    --font-family2: Roboto, 'Source Sans Pro';
+}
+
+body{
+    margin: 0;
+}
+
+.navBar{
+    background-color: #6F6AF7;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+}
+
+.pageName{
+    display: flex;
+    color: #ffffff;
+    font-family: Delius Unicase, 'Source Sans Pro';
+    font-weight: 700;
+    font-size: 45px;
+    padding-left: 40px;
+}
+
+.searchBar{
+    display: flex;
+    font-family: var(--font-family);
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 25px;
+    justify-content: space-around;
+}
+
+.searchBar p{
+    margin: 0;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.search{
+    display: flex;
+    background-color: #ffffff;
+    color: #9F9F9F;
+    border-radius: 100px;
+    width: 250px;
+    justify-content: space-between;
+    padding-right: 20px;
+    margin-left: 10px;
+}
+
+.menuBars{
+    display: flex;
+    font-size: 50px;
+    padding-right: 40px;
+}
+
+.one{
+    padding-top: 80px;
+}
+
+.home{
+    display: flex;
+    margin: 60px;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.img1{
+    display: flex;
+    height: 380px;
+    border-radius: 15px;
+    box-shadow: 0px 9px 31px 0px #00000066;
+}
+
+.content{
+    display: flex;
+    background-color: #E5D8FF;
+    border-radius: 15px;
+    width: 1000px;
+    margin-left: 40px;
+    padding: 20px;
+    padding-top: 0px;
+    font-family: var(--font-family);
+    color: #6F7373;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 40px;
+}
+
+.aboutUs{
+    display: flex;
+    font-family: var(--font-family);
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 20px;
+    justify-content: space-evenly;
+}
+
+.aboutUs div{
+    border-radius: 10px;
+    width: 250px;
+    height: 80px;
+    line-height: 20px;
+    padding: 20px;
+    padding-top: 0;
+    box-shadow: 0px 9px 31px 0px #00000066;
+
+}
+
+.ques{
+    background-color: #929DFF;
+}
+
+.ans{
+    background-color: #734CF2;
+}
+
+.participated{
+    background-color: #D288FF;
+}
+
+.passed{
+    background-color: #000000;
+}
+
+
+.info{
+    background-color: #483EFF;
+    display: flex;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 70px;
+    margin-bottom: 50px;
+}
+
+.infoLeft{
+    display: flex;
+    flex-direction: column;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 20px;
+    justify-content: space-around;
+    padding: 20px;
+    padding-right: 30px;
+}
+
+.infoLeft div{
+    width: 280px;
+    /* height: 70px; */
+    text-align: center;
+    padding: 10px;
+}
+
+.yourInfo{
+    background-color: #BCE0F6;
+    color: #000000;
+    border-radius: 10px;
+    box-shadow: 0px 6px 35px 0px #00000063;
+    border: solid 3px #BCE0F6;
+
+}
+
+.bookmarks{
+    border: solid 3px white;
+    border-radius: 10px;
+    color: #ffffff; 
+}
+
+.settings{
+    border: solid 3px white;
+    border-radius: 10px;
+    color: #ffffff; 
+}
+
+.infoRight{
+    background-color: #ffffff;
+    border-radius: 15px;
+    width: 100%;
+    height: 60vh;
+    padding: 30px;
+    padding-left: 40px;
+    padding-top: 20px;
+    font-family: Inter, 'Source Sans Pro';
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 46px;
+    letter-spacing: 0.105em;
+}
+
+.infoRight p{
+    margin-bottom: 5px;
+}
+
+.lists{
+    display: flex;
+    text-align: left;
+    margin-left: 10px;
+}
+
+ul{
+    list-style-type: none;
+    font-family: var(--font-family2);
+    font-size: 22px;
+    line-height: 45px;
+    text-align: left;
+    padding: 10px;
+    margin: 0;
+}
+
+.listQues{
+    font-weight: 500;
+    letter-spacing: 0.105em;
+    align-items: center;
+}
+
+.listAns{
+    font-weight: 400;
+    letter-spacing: 0.05em;
+}
+
+.btn {
+    
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 22px;
+    display: flex; 
+    align-items: center; 
+    float: right;
+    margin-top: 100px;
+}
+
+.btn .text {
+    margin-right: 5px;
+    font-family: var(--font-family2);
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0.05em;
+}
+
+
+.help {
+    position: fixed;
+    bottom: -80px;
+    right: 0;
+    margin: 40px; 
+    z-index: 999;
+}
+
+.help img{
+    width: 140px;
+}
+
+
+.socialMedias{
+    position: sticky;
+    float: right;
+    top: 80px; 
+    margin-top: 230px;
+}
+
+.socialMedias img{
+    width: 70px;
+}
+
